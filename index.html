@@ -18,16 +18,11 @@
       padding: 2rem;
       text-align: center;
     }
-    .logo-title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1rem;
+    header img {
+      height: 100px;
+      margin-bottom: 1rem;
     }
-    .logo-title img {
-      height: 48px;
-    }
-    .logo-title h1 {
+    header h1 {
       font-size: 2.5rem;
       margin: 0;
       letter-spacing: 2px;
@@ -36,6 +31,12 @@
       max-width: 800px;
       margin: auto;
       padding: 2rem;
+    }
+    .intro {
+      font-style: italic;
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
     }
     h2 {
       color: #ff4444;
@@ -54,13 +55,24 @@
 </head>
 <body>
   <header>
-    <div class="logo-title">
-      <img src="https://gateway.pinata.cloud/ipfs/bafkreibs42wxt42pakyxcjatmpspmmhg7w4uzig5dejkn573kg46zf2efu" alt="NOIRE Token Logo">
-      <h1>NOIRE – The Investigation</h1>
-    </div>
+    <img src="https://gateway.pinata.cloud/ipfs/bafkreibs42wxt42pakyxcjatmpspmmhg7w4uzig5dejkn573kg46zf2efu" alt="NOIRE Token Logo">
+    <h1>NOIRE – The Investigation</h1>
   </header>
 
   <section>
+    <p class="intro">
+      In the dark... beneath a forgotten floorboard...<br>
+      behind a crumbling wall of stone and time...<br>
+      somewhere in the echo of Europe’s wartime silence...<br>
+      it waits.
+    </p>
+    <p class="intro">
+      A silhouette of legend.<br>
+      A machine never seen again.<br>
+      Not destroyed. Not forgotten.<br>
+      Just... hidden.
+    </p>
+
     <h2>The Investigation</h2>
     <p>
       Somewhere in the world, the greatest treasure in automotive history is waiting to be found. A machine of impossible beauty, speed and mystery. A ghost on wheels. The Bugatti Type 57SC Atlantic – La Voiture Noire – chassis 57453.
@@ -111,5 +123,6 @@
   </footer>
 </body>
 </html>
+
 
 
