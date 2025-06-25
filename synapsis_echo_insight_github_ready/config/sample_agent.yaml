@@ -1,0 +1,11 @@
+
+name: trend_agent_alpha
+type: trend_following
+parameters:
+  window: 20
+  threshold: 0.03
+reputation:
+  initial: 0.5
+  max: 1.0
+  decay: 0.01
+enabled: true

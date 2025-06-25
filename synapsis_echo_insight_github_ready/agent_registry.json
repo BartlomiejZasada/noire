@@ -1,0 +1,14 @@
+{
+    "trend": {
+        "reputation": 1.0,
+        "active": true
+    },
+    "scalping": {
+        "reputation": 1.0,
+        "active": true
+    },
+    "risk": {
+        "reputation": 1.0,
+        "active": true
+    }
+}
